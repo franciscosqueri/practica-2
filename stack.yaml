@@ -1,0 +1,11 @@
+resolver: lts-24.30
+
+packages:
+- .
+
+ghc-options:
+  pdeprelude: -haddock
+
+extra-deps:
+- git: https://github.com/10Pines/pdepreludat.git
+  commit: 5297fdacabc61c713f4ae2ea89df4880514ff272
